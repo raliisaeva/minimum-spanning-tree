@@ -1,0 +1,115 @@
+/* Fonts */
+.quantico-regular {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quantico-regular-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quantico-bold-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* IDs */
+#title {
+    color: white;
+    text-align: center;
+}
+
+#console {
+    width: 1000px;
+    height: 480px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    border-width: medium;
+}
+
+#input-field {
+    width: 1000px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: medium solid rgba(255, 255, 255);
+    padding-top: 5px;
+    display: flex;
+    color: white;
+}
+
+#lbl-type-command {
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+    padding-top: 3px;
+    margin-right: 20px;
+}
+
+#enter-command {
+    width: 740px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5px;
+    outline: none;
+    caret-color: white;
+}
+
+#navigation {
+    width: 1000px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border: medium solid rgba(255, 255, 255);
+    padding-top: 0px;
+    color: white;
+}
+
+#navigation-header {
+    padding-top: 1px;
+    text-align: center;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: white;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navigation-table {
+    border-style: none;
+    margin: auto;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Classes */
+
+
+/* General Elements*/
+input {
+    background-color: black;
+    border: none;
+}

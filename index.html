@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <title>Minimum Spanning Tree Final Boss</title>
+        <meta name = "description" content = "Hello and welcome to my project! With the 'Minimum Spanning Tree Final Boss' you'll learn how the MST algorithm works, why it's used in competitive programing, and can interactively solve an MST algorithm of your choice.">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color: black;">
+        <div id = "game-container">
+            <h1 id  = "title" class = "quantico-regular">Minimum Spanning Tree Final Boss</h1>
+
+            <div id = "console"> </div>
+            <br>
+
+            <div id = "input-field">
+                <label id = "lbl-type-command" class = "quantico-bold">TYPE A COMMAND:</label>
+                <input id = "enter-command" class = "quantico-regular-italic">
+            </div>
+            <br>
+
+            <div id = "navigation">
+                <h2 id = "navigation-header" class = "quantico-bold">NAVIGATION COMMANDS</h2>
+                <table id = "navigation-table">
+                    <tr class = "quantico-bold">
+                        <th>h</th>
+                        <th>a</th>
+                        <th>i</th>
+                        <th>k</th>
+                        <th>p</th>
+                        <th>stop</th>
+                        <th>↑</th>
+                        <th>↓</th>
+                    </tr>
+                    <tr class = "quantico-regular">
+                        <td>help</td>
+                        <td>about the project</td>
+                        <td>info about MSTs</td>
+                        <td>Kruskal's Algorithm</td>
+                        <td>Prim's Algorithm</td>
+                        <td>stop action</td>
+                        <td>scroll up</td>
+                        <td>scroll down</td>
+                    </tr>
+                </table>
+            </div>
+            <div id = "footer" class = "quantico-bold-italic">MADE BY: RALITSA ISAEVA</div>
+        </div>
+
+        <script src = "style.js"></script>
+    </body>
+</html>
