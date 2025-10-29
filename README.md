@@ -1,4 +1,6 @@
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+
+
 Minimum Spanning Tree Final Boss
 1. What is my project and what does it do?
 My project is about the MST (Minimum Spanning Tree) concept and how to find an MST using either one of the two algorithms: Kruskal's or Prim's algorithm.
