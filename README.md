@@ -3,7 +3,6 @@
 
 Minimum Spanning Tree Final Boss
 1. What is my project and what does it do?
-
 My project is about the MST (Minimum Spanning Tree) concept and how to find an MST using either one of the two algorithms: Kruskal's or Prim's algorithm.
 I made my project interactive, and it is shaped like a console. The user can enter commands (there is a navigation bar with a list of those). Using either the "Kruskal's algorithm" or "Prim's algorithm" command the user can enter their own data about a tree and with the help of my program they'll learn how to solve it step by step. I've also included general information about the algorithm (gotten from resources on the internet) and a section where I'm explaining the project, talking about "why this project", etc.
 
